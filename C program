@@ -1,0 +1,27 @@
+#include <stdio.h>
+ 
+int main()
+{
+   int a,b,c,add,sub,mult;
+   
+   float devide;
+   
+   printf("Enter the 2 integer mumber\n");
+   
+   scanf("%d %d",&a,&b);
+   
+   add= a+b;
+   sub=a-b;
+   mult=a*b;
+   devide= a/b;
+   
+   printf("the sum of 2 number=%d\n",add);
+   printf("the subs of 2 number=%d\n",sub);
+   printf("the multipication of 2 value=%d\n",mult);
+   printf("the 2 number devide is =%.2f",devide);
+   
+   return 0;
+   
+   
+ 
+}
